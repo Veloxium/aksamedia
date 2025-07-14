@@ -15,7 +15,7 @@ function ZNavbar() {
   return (
     <nav className="bg-zgradient shadow-md p-4 text-white dark:bg-zinc-900 dark:text-white">
       <div className="container mx-auto flex justify-between items-center">
-        <a href="/aksamedia" className="text-2xl font-bold">
+        <a href="/" className="text-2xl font-bold">
           Velox.
         </a>
         <div className="space-x-8 flex items-center">
@@ -23,7 +23,7 @@ function ZNavbar() {
             <ThemeToggle />
           </div>
           <div>
-            <a href="/aksamedia/profile">
+            <a href="//profile">
               <UserRoundPen className="hover:bg-white hover:text-zprimary p-1 w-8 h-8 rounded-full dark:hover:bg-zinc-800 dark:hover:text-white" />
             </a>
           </div>

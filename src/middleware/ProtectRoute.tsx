@@ -5,7 +5,7 @@ const ProtectRoutes = () => {
   const username = useUserStore((state) => state.username);
 
   if (!username || username === "") {
-    return <Navigate to="/aksamedia/login" replace />;
+    return <Navigate to="//login" replace />;
   }
 
   return <Outlet />;

@@ -24,7 +24,7 @@ function AddPage() {
       const res = await addProduct(data);
       if (res) {
         setMessage("Produk berhasil ditambahkan!");
-        setTimeout(() => navigate("/aksamedia"), 1200);
+        setTimeout(() => navigate("/"), 1200);
       }
     } catch (error) {
       console.error("Error adding product:", error);
@@ -140,7 +140,7 @@ function AddPage() {
         {isLoading ? <Loader2 className="animate-spin" /> : "Tambah Produk"}
         </button>
         <a
-        href="/aksamedia"
+        href="/"
         className="bg-gray-100 dark:bg-zinc-800 flex justify-center items-center px-4 py-2 rounded-md hover:bg-gray-200 dark:hover:bg-zinc-700 transition-colors"
         >
         Kembali

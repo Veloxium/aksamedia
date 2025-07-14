@@ -26,7 +26,7 @@ function LoginPage() {
       const response = await login(data);
       if (response) {
         setUsername(data.username);
-        navigate("/aksamedia");
+        navigate("/");
       } else {
         setMessage("Username atau password salah")
       }
@@ -39,7 +39,7 @@ function LoginPage() {
 
   useEffect(() => {
     if (username) {
-      navigate("/aksamedia");
+      navigate("/");
     }
   }, []);
 
