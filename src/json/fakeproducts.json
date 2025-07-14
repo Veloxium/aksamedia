@@ -1,0 +1,92 @@
+[
+    {
+        "id": "1",
+        "name": "Apple",
+        "price": 15000,
+        "category": "Fruits",
+        "stock": 100,
+        "createdAt": "2024-06-01T10:00:00Z",
+        "updatedAt": "2024-06-05T12:00:00Z"
+    },
+    {
+        "id": "2",
+        "name": "Banana",
+        "price": 12000,
+        "category": "Fruits",
+        "stock": 80,
+        "createdAt": "2024-06-02T11:30:00Z",
+        "updatedAt": "2024-06-06T09:15:00Z"
+    },
+    {
+        "id": "3",
+        "name": "Carrot",
+        "price": 8000,
+        "category": "Vegetables",
+        "stock": 150,
+        "createdAt": "2024-06-03T08:45:00Z",
+        "updatedAt": "2024-06-07T14:20:00Z"
+    },
+    {
+        "id": "4",
+        "name": "Broccoli",
+        "price": 18000,
+        "category": "Vegetables",
+        "stock": 60,
+        "createdAt": "2024-06-04T13:10:00Z",
+        "updatedAt": "2024-06-08T16:00:00Z"
+    },
+    {
+        "id": "5",
+        "name": "Chicken Breast",
+        "price": 45000,
+        "category": "Food",
+        "stock": 40,
+        "createdAt": "2024-06-05T09:00:00Z",
+        "updatedAt": "2024-06-09T10:30:00Z"
+    },
+    {
+        "id": "6",
+        "name": "Potato",
+        "price": 10000,
+        "category": "Vegetables",
+        "stock": 200,
+        "createdAt": "2024-06-06T15:00:00Z",
+        "updatedAt": "2024-06-10T11:00:00Z"
+    },
+    {
+        "id": "7",
+        "name": "Orange",
+        "price": 14000,
+        "category": "Fruits",
+        "stock": 90,
+        "createdAt": "2024-06-07T10:20:00Z",
+        "updatedAt": "2024-06-11T13:45:00Z"
+    },
+    {
+        "id": "8",
+        "name": "Tomato",
+        "price": 9000,
+        "category": "Vegetables",
+        "stock": 110,
+        "createdAt": "2024-06-08T12:00:00Z",
+        "updatedAt": "2024-06-12T15:30:00Z"
+    },
+    {
+        "id": "9",
+        "name": "Eggs (12 pcs)",
+        "price": 22000,
+        "category": "Food",
+        "stock": 70,
+        "createdAt": "2024-06-09T09:30:00Z",
+        "updatedAt": "2024-06-13T10:10:00Z"
+    },
+    {
+        "id": "10",
+        "name": "Spinach",
+        "price": 7000,
+        "category": "Vegetables",
+        "stock": 130,
+        "createdAt": "2024-06-10T14:00:00Z",
+        "updatedAt": "2024-06-14T12:00:00Z"
+    }
+]
