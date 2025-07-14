@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route path="/aksamedia/login" element={<LoginPage />} />
           <Route element={<ProtectRoutes />}>
-            <Route path="/aksamedia" element={<DashboardPage />} />
+            <Route path="/aksamedia/dashboard" element={<DashboardPage />} />
             <Route path="/aksamedia/profile" element={<ProfilePage />} />
             <Route path="/aksamedia/edit" element={<EditPage />} />
             <Route path="/aksamedia/add" element={<AddPage />} />
