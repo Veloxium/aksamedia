@@ -48,7 +48,7 @@ function EditPage() {
       const res = editProductById(id, data);
       if (!!res) {
         setMessage("Update Profile Berhasil!");
-        setTimeout(() => navigate("/"), 1200);
+        setTimeout(() => navigate("/aksamedia"), 1200);
       }
     } catch (error) {
       console.error("Error updating profile:", error);
@@ -178,7 +178,7 @@ function EditPage() {
               )}
             </button>
             <a
-              href="/"
+              href="/aksamedia"
               className="bg-gray-100 dark:bg-gray-700 flex justify-center items-center px-4 py-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
             >
               Kembali

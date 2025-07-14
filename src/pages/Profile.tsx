@@ -75,7 +75,7 @@ function ProfilePage() {
               {isLoading ? <Loader2 className="animate-spin" /> : "Simpan"}
             </button>
             <a
-              href="/"
+              href="/aksamedia"
               className="bg-gray-100 flex justify-center items-center px-4 py-2 rounded-md hover:bg-gray-200 transition-colors"
             >
               Kembali

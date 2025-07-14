@@ -15,7 +15,7 @@ function ZNavbar() {
   return (
     <nav className="bg-zgradient shadow-md p-4 text-white dark:bg-zinc-900 dark:text-white">
       <div className="container mx-auto flex justify-between items-center">
-      <a href="/" className="text-2xl font-bold">
+      <a href="/aksamedia" className="text-2xl font-bold">
         Velox.
       </a>
       <div className="space-x-8 flex items-center">
