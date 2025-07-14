@@ -23,7 +23,7 @@ function ZNavbar() {
             <ThemeToggle />
           </div>
           <div>
-            <a href="//profile">
+            <a href="/profile">
               <UserRoundPen className="hover:bg-white hover:text-zprimary p-1 w-8 h-8 rounded-full dark:hover:bg-zinc-800 dark:hover:text-white" />
             </a>
           </div>
