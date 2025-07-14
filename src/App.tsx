@@ -12,12 +12,12 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/login" element={<LoginPage />} />
+          <Route path="/aksamedia/login" element={<LoginPage />} />
           <Route element={<ProtectRoutes />}>
             <Route path="/aksamedia" element={<DashboardPage />} />
-            <Route path="/profile" element={<ProfilePage />} />
-            <Route path="/edit" element={<EditPage />} />
-            <Route path="/add" element={<AddPage />} />
+            <Route path="/aksamedia/profile" element={<ProfilePage />} />
+            <Route path="/aksamedia/edit" element={<EditPage />} />
+            <Route path="/aksamedia/add" element={<AddPage />} />
           </Route>
         </Routes>
       </BrowserRouter>
