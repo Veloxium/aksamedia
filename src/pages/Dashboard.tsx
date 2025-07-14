@@ -154,7 +154,7 @@ function DashboardPage() {
         </div>
         <div>
           <a
-          href="/add"
+          href="/aksamedia/add"
           className="p-2 rounded bg-zgradient dark:bg-zprimary-light text-white hover:bg-zprimary/80 dark:hover:bg-zprimary flex items-center gap-2 transition-colors"
           >
           <Plus />
