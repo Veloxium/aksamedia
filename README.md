@@ -1,6 +1,7 @@
 # Aksamedia Intern Test
 
 Selamat datang di proyek Magang Aksamedia saya!
+Note: ada issue di github pages sehingga deployment dipindah ke vercel https://aksamedia-ten.vercel.app/
 
 ## Daftar Isi
 
@@ -18,5 +19,5 @@ Untuk masuk, gunakan kredensial berikut:
 
 Saya membuat proyek ini untuk menyelesaikan tes magang di Aksamedia.
 
-Note: ada issue di github pages sehingga deployment dipindah ke vercel https://aksamedia-ten.vercel.app/
+
 
