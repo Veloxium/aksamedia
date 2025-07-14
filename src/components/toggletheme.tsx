@@ -4,9 +4,10 @@ import useThemeStore from "../store/themeStore";
 export default function ThemeToggle() {
   const [isShowSelect, setIsShowSelect] = useState<boolean>(false);
   const setTheme = useThemeStore((state) => state.setTheme);
+  const theme = useThemeStore((state) => state.theme);
   const [selectedTheme, setSelectedTheme] = useState<
     "light" | "dark" | "system"
-  >("light");
+  >(theme);
 
   const handleThemeChange = (newTheme: "light" | "dark" | "system") => {
     setSelectedTheme(newTheme);
